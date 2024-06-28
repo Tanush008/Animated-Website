@@ -1,0 +1,1 @@
+A pratice Project on HTML,CSS and JavaScript with some animations and effect 
