@@ -2,12 +2,12 @@
   --salmon: #ef9d71;
   --black: #000;
   --white: #fff;
-  --cyan: #aedee0;
+  --cyan: #203f40;
   --dsalmon: #532521;
   --dcyan: #1f2f32;
 }
 *::selection {
-  background-color: rgb(108, 32, 23);
+  background-color: rgb(108, 32, 23)  ;
 }
 body[theme="black"] {
   background-color: #000;
@@ -26,4 +26,7 @@ body[theme="white"] {
 }
 .vdodiv{
   clip-path: circle(var(--clip)at 50% 50%);
+}
+body{
+  transition:background-color ease-out .5s;
 }
